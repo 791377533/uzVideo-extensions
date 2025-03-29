@@ -30,8 +30,8 @@ const appConfig = {
 
   firstClass: [
     {
-      name: '番剧',
-      id: '1',
+      name: '国漫',
+      id: 'guoman',
       filter: [
 
       ],
