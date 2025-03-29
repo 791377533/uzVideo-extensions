@@ -58,6 +58,20 @@
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/791377533/uzVideo-extensions/main/vod/js/nt.js",
       "type": 101
     },
+        {
+      "name": "lmm",
+      "version": 1,
+      "webSite": "https://www.lmm96.com",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/791377533/uzVideo-extensions/main/vod/js/lmm.js",
+      "type": 101
+    },
+        {
+      "name": "yh",
+      "version": 1,
+      "webSite": "https://www.vdm5.com",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/791377533/uzVideo-extensions/main/vod/js/yh.js",
+      "type": 101
+    },
     {
       "name": "瓜子 app",
       "version": 2,
@@ -67,21 +81,6 @@
       "instance": "gzapp20241001",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/gzapp.txt",
       "type": 100
-    },
-    {
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🐝如意",
-      "type": 0
-    },
-    {
-      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-      "name": "🐝黑木耳",
-      "type": 0
-    },
-    {
-      "api": "https://cjhwba.com/api.php/provide/vod/",
-      "name": "🐝华为吧",
-      "type": 0
     }
   ],
   "live": [
