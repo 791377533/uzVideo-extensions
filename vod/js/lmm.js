@@ -27,9 +27,9 @@ const appConfig = {
   mainListUrl: '@{webSite}/vod/show/id/@{mainId}/page/@{page}.html',
 
   firstClass: [
-    {
-      name: '日本动漫',
-      id: '6',
+        {
+      name: '国产动漫',
+      id: '7',
       filter: [
         {
           name: '年份',
@@ -124,8 +124,8 @@ const appConfig = {
       ],
     },
     {
-      name: '国产动漫',
-      id: '7',
+      name: '日本动漫',
+      id: '6',
       filter: [
         {
           name: '年份',
