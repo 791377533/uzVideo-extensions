@@ -27,13 +27,13 @@ const appConfig = {
 
   firstClass: [
     {
-      name: '日本动漫',
-      id: 'ribendongman',
+      name: '国产动漫',
+      id: 'guochandongman',
       filter: [],
     },
     {
-      name: '国产动漫',
-      id: 'guochandongman',
+      name: '日本动漫',
+      id: 'ribendongman',
       filter: [],
     },
     {
