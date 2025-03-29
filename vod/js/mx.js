@@ -1,7 +1,7 @@
 // ignore
-//@name:mifun
+//@name:mx
 //@version:1
-//@webSite:http://www.mifun.tw
+//@webSite:https://www.mxdm9.cc
 //@remark:
 import { } from '../../core/uzVideo.js'
 import { } from '../../core/uzHome.js'
@@ -22,7 +22,7 @@ const appConfig = {
     }
   },
 
-  _webSite: 'http://www.mifun.tw',
+  _webSite: 'https://www.mxdm9.cc',
 
   filterListUrl: '@{webSite}/vodshow/@{mainId}/page/@{page}/',
 
