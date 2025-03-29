@@ -1,5 +1,5 @@
 // ignore
-//@name:mx
+//@name:[嗅]MX动漫
 //@version:1
 //@webSite:https://www.mxdm9.cc
 //@remark:
@@ -16,31 +16,43 @@ const isAddReferer = 1
 // 网站主页
 const webSite = 'https://www.mxdm9.cc'
 // 网站搜索
-// https://www.clicli.pro/search/page/2/wd/海.html
+// https://www.mxdm9.cc/search/%E6%B5%B7%E8%B4%BC%E7%8E%8B-------------.html
 // 把网站主页变成 @{webSite} 把搜索词变成 @{searchWord}  把页码变成 @{page}
-const searchUrl = '@{webSite}/search/page/@{page}/wd/@{searchWord}.html'
+const searchUrl = '@{webSite}/search/@{searchWord}-------------.html'
 // 当前网站任意视频详情页
-// https://www.clicli.pro/bangumi/3384.html
-const videoDetailPage = '@{webSite}/dongman/1548.html'
+// https://www.mxdm9.cc/dongman/9163.html
+const videoDetailPage = '@{webSite}/dongman/9163.html'
 // 当前网站任意视频播放页
-// https://www.clicli.pro/video/3384/1-1.html
-const videoPlayPage = '@{webSite}/dongmanplay/1548-1-1.html'
+// https://www.mxdm9.cc/dongmanplay/9163-1-1.html
+const videoPlayPage = '@{webSite}/dongmanplay/9163-1-1.html'
 
 // 保持不变
 const filterListUrl = ''
 
 const firstClass = [
     {
-        name: '国漫',
-        // https://www.clicli.pro/show/id/1/page/2.html
+        name: '国产动漫',
+        // https://www.mxdm9.cc/show/guoman--------2---.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/show/id/1/page/@{page}.html',
+        id: '@{webSite}/show/guoman--------@{page}---.html',
     },
     {
-        name: '剧场版',
-        // https://www.clicli.pro/show/id/2/page/2.html
+        name: '日本动漫',
+        // https://www.mxdm9.cc/show/riman--------2---.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/show/id/2/page/@{page}.html',
+        id: '@{webSite}/show/riman--------@{page}---.html',
+    },
+    {
+        name: '动漫电影',
+        // https://www.mxdm9.cc/show/dmdianying--------2---.html
+        // 把网站主页变成 @{webSite}  把页码变成 @{page}
+        id: '@{webSite}/show/dmdianying--------@{page}---.html',
+    },
+    {
+        name: '欧美动漫',
+        // https://www.mxdm9.cc/show/oman--------2---.html
+        // 把网站主页变成 @{webSite}  把页码变成 @{page}
+        id: '@{webSite}/show/oman--------@{page}---.html',
     },
 ]
 
