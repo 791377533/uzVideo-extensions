@@ -44,7 +44,7 @@
     }
   ],
   "vod": [
-    {
+  {
       "name": "mx",
       "version": 1,
       "webSite": "https://www.mxdm9.cc",
@@ -58,14 +58,14 @@
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/791377533/uzVideo-extensions/main/vod/js/nt.js",
       "type": 101
     },
-        {
+    {
       "name": "lmm",
       "version": 1,
       "webSite": "https://www.lmm96.com",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/791377533/uzVideo-extensions/main/vod/js/lmm.js",
       "type": 101
     },
-        {
+   {
       "name": "yh",
       "version": 1,
       "webSite": "https://www.vdm5.com",
