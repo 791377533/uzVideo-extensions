@@ -34,19 +34,19 @@ const firstClass = [
         name: '电影',
         // https://www.bahaotv.com/vodshow/movie--------2---.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/vodshow/movie--------@{page}---.html',
+        id: '@{webSite}/cn/movie--------@{page}---.html',
     },
     {
         name: '电视剧',
         // https://www.bahaotv.com/vodshow/tvseries--------2---.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/vodshow/tvseries--------@{page}---.html',
+        id: '@{webSite}/cn/tvseries--------@{page}---.html',
     },
     {
         name: '动漫',
         // https://www.bahaotv.com/vodshow/anime--------2---.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/vodshow/anime--------@{page}---.html',
+        id: '@{webSite}/cn/anime--------@{page}---.html',
     } 
 ]
 
