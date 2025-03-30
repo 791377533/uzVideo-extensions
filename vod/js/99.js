@@ -34,7 +34,7 @@ const firstClass = [
         name: '国产动漫',
         // https://www.295yhw.com/type/guochandongman.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/type/guochandongman@{page}.html',
+        id: '@{webSite}/type/guochandongman@{fyclass-fypage}.html',
     },
     {
         name: '日本动漫',
