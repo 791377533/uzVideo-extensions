@@ -1,5 +1,5 @@
 // ignore
-//@name:[嗅]MX动漫
+//@name:99
 //@version:1
 //@webSite:https://www.295yhw.com
 //@remark:
