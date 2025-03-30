@@ -1,7 +1,7 @@
 // ignore
-//@name:99
+//@name:zkk
 //@version:1
-//@webSite:https://www.295yhw.com
+//@webSite:http://www.zkk79.com
 //@remark:
 // ignore
 
@@ -14,17 +14,17 @@ const isUsePC = 1
 const isAddReferer = 1
 
 // 网站主页
-const webSite = 'https://www.295yhw.com'
+const webSite = 'http://www.zkk79.com'
 // 网站搜索
-// https://www.295yhw.com/search/%E6%B5%B7%E8%B4%BC%E7%8E%8B-------------.html
+// http://www.zkk79.com/search/-------------.html?wd=%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C&submit=
 // 把网站主页变成 @{webSite} 把搜索词变成 @{searchWord}  把页码变成 @{page}
 const searchUrl = '@{webSite}/search/@{searchWord}-------------.html'
 // 当前网站任意视频详情页
-// https://www.295yhw.com/video/1805.html
-const videoDetailPage = '@{webSite}/video/1805.html'
+// http://www.zkk79.com/dongman/6744.html
+const videoDetailPage = '@{webSite}/video/6744.html'
 // 当前网站任意视频播放页
-// https://www.295yhw.com/play/1805-1-1.html
-const videoPlayPage = '@{webSite}/play/1805-1-1.html'
+// http://www.zkk79.com/dongmanplay/6744-1-1.html
+const videoPlayPage = '@{webSite}/play/6744-1-1.html'
 
 // 保持不变
 const filterListUrl = ''
@@ -32,27 +32,27 @@ const filterListUrl = ''
 const firstClass = [
     {
         name: '国产动漫',
-        // https://www.295yhw.com/type/guochandongman.html
+        // http://www.zkk79.com/type/guoman.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/type/guochandongman@{fyclass-fypage}.html',
+        id: '@{webSite}/type/guoman@{page}.html',
     },
     {
         name: '日本动漫',
-        // https://www.295yhw.com/type/ribendongman.html
+        // http://www.zkk79.com/type/riman.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/type/ribendongman@{page}.html',
+        id: '@{webSite}/type/riman@{page}.html',
     },
     {
         name: '动漫电影',
-        // https://www.295yhw.com/type/dongmandianying.html
+        // http://www.zkk79.com/type/dmdianying.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/type/dongmandianying@{page}.html',
+        id: '@{webSite}/type/dmdianying@{page}.html',
     },
     {
         name: '欧美动漫',
-        // https://www.295yhw.com/type/omeidongman.html
+        // http://www.zkk79.com/type/oman.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/type/omeidongman@{page}.html',
+        id: '@{webSite}/type/oman@{page}.html',
     },
 ]
 
