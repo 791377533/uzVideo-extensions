@@ -16,15 +16,15 @@ const isAddReferer = 1
 // 网站主页
 const webSite = 'https://www.295yhw.com'
 // 网站搜索
-// https://www.https://www.295yhw.com/search/%E6%B5%B7%E8%B4%BC%E7%8E%8B-------------.html
+// https://www.295yhw.com/search/%E6%B5%B7%E8%B4%BC%E7%8E%8B-------------.html
 // 把网站主页变成 @{webSite} 把搜索词变成 @{searchWord}  把页码变成 @{page}
 const searchUrl = '@{webSite}/search/@{searchWord}-------------.html'
 // 当前网站任意视频详情页
-// https://www.https://www.295yhw.com/dongman/9163.html
-const videoDetailPage = '@{webSite}/video/9236.html'
+// https://www.295yhw.com/video/1805.html
+const videoDetailPage = '@{webSite}/video/1805.html'
 // 当前网站任意视频播放页
-// https://www.mxdm9.cc/dongmanplay/9163-1-1.html
-const videoPlayPage = '@{webSite}/play/9236-1-1.html'
+// https://www.295yhw.com/play/1805-1-1.html
+const videoPlayPage = '@{webSite}/play/1805-1-1.html'
 
 // 保持不变
 const filterListUrl = ''
@@ -32,27 +32,27 @@ const filterListUrl = ''
 const firstClass = [
     {
         name: '国产动漫',
-        // https://www.mxdm9.cc/show/guoman--------2---.html
+        // https://www.295yhw.com/type/guochandongman.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/type/guochandongman--------@{page}---.html',
+        id: '@{webSite}/type/guochandongman@{page}.html',
     },
     {
         name: '日本动漫',
-        // https://www.mxdm9.cc/show/riman--------2---.html
+        // https://www.295yhw.com/type/ribendongman.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/type/ribendongman--------@{page}---.html',
+        id: '@{webSite}/type/ribendongman@{page}.html',
     },
     {
         name: '动漫电影',
-        // https://www.mxdm9.cc/show/dmdianying--------2---.html
+        // https://www.295yhw.com/type/dongmandianying.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/type/dongmandianying--------@{page}---.html',
+        id: '@{webSite}/type/dongmandianying@{page}.html',
     },
     {
         name: '欧美动漫',
-        // https://www.mxdm9.cc/show/oman--------2---.html
+        // https://www.295yhw.com/type/omeidongman.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/type/omeidongman--------@{page}---.html',
+        id: '@{webSite}/type/omeidongman@{page}.html',
     },
 ]
 
